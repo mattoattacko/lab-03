@@ -1,7 +1,7 @@
 {
-  "name": "file-reader",
+  "name": "lab-03",
   "version": "1.0.0",
-  "description": "",
+  "description": "![CF](http://i.imgur.com/7v5ASc8.png) 03: Asynchronous Callbacks\r ===",
   "main": "index.js",
   "directories": {
     "lib": "lib"
@@ -11,10 +11,23 @@
     "test": "jest --coverage --verbose",
     "test-watch": "jest --watchAll --coverage --verbose"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew McQuain",
+  "license": "MIT",
   "dependencies": {
+    "argv": "0.0.2",
     "eslint": "^5.6.1",
-    "jest": "^23.6.0"
-  }
+    "faker": "^4.1.0",
+    "file-system": "^2.2.2",
+    "jest": "^23.6.0",
+    "lint": "^1.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattoattacko/lab-03.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattoattacko/lab-03/issues"
+  },
+  "homepage": "https://github.com/mattoattacko/lab-03#readme"
 }
