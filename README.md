@@ -50,13 +50,11 @@ In the files folder, you'll see 3 files: `1.txt, 2.txt, 3.txt`
 * In this new file, convert the code you fixed in task 1 to run with any number of files.
 * You'll need to change the tests to assert on 1, 2, 3, + files
 
-
 **Refactoring Task 3: Use promises to read 3 files**
 * Make a copy of the reader.js library called `reader-promises.js`
 * Make a copy of the reader.test.js library called `reader-promises.test.js`
 * In this new file, convert the code you fixed in task 1 to use promises to read in 3 files instead of callbacks
 * You'll need to change the tests to work with promises instead of callbacks.
-
 
 **Refactoring Task 4: Use `Promise.all()` to read an array files**
 * Make a copy of the reader.js library called `reader-promise-all.js`
@@ -64,6 +62,5 @@ In the files folder, you'll see 3 files: `1.txt, 2.txt, 3.txt`
 * In this new file, convert the code you fixed in task 3 to use an array promises to read in any number of files
 * You'll need to change the tests to have more wide assertions
 
-
 ##  Documentation
-In your README.md describe the exported values of each module you have defined. Every function description should include it's airty (expected number of parameters), the expected data for each paramiter (data-type and limitations), and it's behavior (for both valid and invalued use). Feel free to write any additional information in your README.md.
+
