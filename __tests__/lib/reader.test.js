@@ -14,7 +14,7 @@ jest.mock('fs');
 
 // Best to just comment this out
 // const reader = require('../../edit-file.js');
-const reader = require('../../lib/reader-fixed.js');
+const reader = require('../../lib/reader-edited.js');
 
 describe('File Reader Module', () => {
 
